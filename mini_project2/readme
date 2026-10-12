@@ -1,0 +1,4 @@
+di file ini kita memberikan sedikit perubahan pada source code nya yaitu
+1. refactor func validasi, check username dan password
+2. menambahkan exception baru dan langsung menggunakannya
+3. target selanjutnya adalah membuat fitur register
