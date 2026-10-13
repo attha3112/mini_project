@@ -1,0 +1,5 @@
+Di mini project ini kita menambahkan fitur baru yaitu register
+1. tetap menggunakan database yang ada
+2. hanya ada 2 fungsi yaitu check validasi dan juga check uname dan password 
+3. Target selanjutnya adalah bagaimana kita bisa menambahkan hasil register ini bisa masukkan ke database
+4. Jangan lupa untuk refactory Kode kode yang telah dibuat
