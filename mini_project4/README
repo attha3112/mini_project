@@ -1,0 +1,4 @@
+1. fitur register dan login sudah sampai disini saja mari kita lanjut ke API harap pelajari dulu API yang perlu dipelajari
+2. catatan jika ada di kondisi looping dan 2 kondisi, harap tidak menggabungkan 2 kondisi tersebut keluarkan salah satu kondisi agar tidak terjadinya miss judgement dari proses
+3. untuk hasil yang bisa di masukkan di database masih belum, materi tersebut baru kita lakukan di materi database(SQLite3)
+4. Target selanjutnya adalah mempelajari API dan mencari cara bagaimana komunikasi menggunakan API tq
