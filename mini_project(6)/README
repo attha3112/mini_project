@@ -1,0 +1,16 @@
+1. Penerapan FastAPI & Pydantic: Kamu berhasil menghubungkan Request Body dari Swagger UI menggunakan model userlog_reg dengan sangat rapi.
+2. Pemisahan Arsitektur (Separation of Concerns): Kita membahas pentingnya menjaga agar file utama (app.py) tetap bersih dari urusan database dan looping logika, dengan cara mendelegasikannya ke file logika terpisah (seperti signin.py).
+3. Konsep OOP & Constructor (__init__): Kamu memahami perbedaan mengapa ada class yang bisa langsung dipanggil kosong (serveranalyzer()) karena hanya membawa default value/setting, dan mengapa class login membutuhkan "bekal" data dari
+4. Debungging Error secara Mandiri: Kita berhasil melacak error mulai dari AttributeError, salah nama fungsi, hingga kekurangan argumen parameter menggunakan terminal dengan kepala dingin.
+
+
+ ===== TIPS REFACTORY ====
+1. Satu Perubahan dalam Satu Waktu (Small Steps): Jangan mengubah seluruh file sekaligus. Ubah satu fungsi atau satu baris, jalankan (run), pastikan aman, lalu lanjut ke bagian berikutnya. Ini jurus ampuh agar kalau ada error, kamu langsung tahu di mana letaknya.
+2. Rapikan Penamaan Variabel & Fungsi: Pastikan nama fungsi benar-benar mencerminkan tugasnya (contoh: gunakan check_login atau validate_user agar mudah dibaca berbulan-bulan ke depan).
+3. Pisahkan Tanggung Jawab (Separation of Concerns): Pastikan app.py benar-benar bersih dari logika database, dan file logika murni hanya mengurus perhitungan atau pencarian data.
+
+
+==== NEXT LESSON ====
+1. Exception Handling yang Lebih Rapi: Mempelajari cara membuat kustom error sendiri secara profesional di Python (seperti yang sudah kamu coba buat di file exception.py)
+2. Dasar-Dasar Database (SQL & SQLite): Mempelajari cara menyimpan data tidak lagi di dalam list dictionary Python, melainkan ke database sungguhan menggunakan SQLite atau SQLAlchemy ORM di FastAPI.
+3. Environment Variables (.env): Belajar cara mengamankan data penting (seperti secret key atau konfigurasi rahasia) agar tidak tertulis secara langsung di dalam kode.
